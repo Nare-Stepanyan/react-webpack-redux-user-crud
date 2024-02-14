@@ -1,0 +1,36 @@
+$body-color: dark-grey;
+
+body {
+  color: $body-color;
+  button {
+    padding: 10px 15px;
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    width: 120px;
+    cursor: pointer;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-left: 10px;
+}
+
+table {
+  th,
+  tr,
+  td {
+    padding: 10px 15px;
+  }
+}
+input {
+  padding: 10px 15px;
+  width: 120px;
+  margin: 10px 20px;
+}
